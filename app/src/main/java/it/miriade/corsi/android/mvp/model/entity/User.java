@@ -22,6 +22,7 @@ public class User implements Serializable {
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.birthday = birthday;
     }
 
     public String getEmail() {
